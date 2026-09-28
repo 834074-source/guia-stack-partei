@@ -1,0 +1,35 @@
+------------------------------
+Variables de la pregunta
+------------------------------
+stack_include("contribl://prooflib.mac");
+ta:proof("paso1","paso2","paso3","paso4","paso5","paso6","paso7","paso8","paso9");
+proof_steps:[
+["paso1","Asume, para una contradicción, que \\(\\log_2(3)\\) es racional."],
+["paso2","Entonces \\(\\log_2(3) = \\frac{p}{q}>0\\) donde"],
+["paso3","\\(p\\) y \\(q\\neq 0\\) son enteros positivos."],
+["paso4","Empleando la definición de logaritmo:"],
+["paso5","\\[ 3 = 2^{\\frac{p}{q}}\\]"],
+["paso6","\\[ 3^q = 2^p\\]"],
+["paso7","El primer miembro es siempre impar; y el segundo, siempre par."],
+["paso8","Esto es una contradicción."],
+["paso9","Por lo tanto, \\(\\log_2(3)\\) es irracional."]
+]; 
+proof_steps:random_permutation(proof_steps);
+
+------------------------------
+Enunciado de la pregunta (desde la Vista HTML del Editor)
+------------------------------
+<p>Demuestra que \(\log_2(3)\) es irracional.</p>
+[[parsons input="ans1"]] {"steps": {# stackjson_stringify(proof_steps) #},"headers":["Construye tu solución aquí:"],
+"available_header":["Arrastra desde aquí:"] ,} [[/parsons ]]
+<p style="display:none">[[input:ans1]] [[validation:ans1]]</p>
+
+------------------------------
+Entrada - Respuesta modelo
+------------------------------
+proof_parsons_key_json(ta, [])
+
+------------------------------
+Variables de retroalimentación
+------------------------------
+sa:proof_parsons_interpret(ans1);

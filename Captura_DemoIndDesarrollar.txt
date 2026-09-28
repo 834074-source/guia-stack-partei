@@ -1,0 +1,27 @@
+-------------------------------
+Enunciado de la pregunta - HTML
+-------------------------------
+Realiza la siguiente demostración.
+<div class="proof">
+    <p>Sea \(P(n)\) la siguiente proposición: \[\sum_{k=1}^{n}(k-1)\cdot k=\frac{(n-1)(n)(n+1)}{3}.\]</p>
+    <div class="proof-comment">Paso 1</div>
+    <div class="proof-block">
+        <p>Puesto que \(1\cdot(1-1)=\)[[input:ans1]][[validation:ans1]][[feedback:prt1]]</p>
+        <p>y \(\frac{(1-1)\cdot 1\cdot(1+1)}{3}=\)[[input:ans2]][[validation:ans2]][[feedback:prt2]]</p>
+        <p>se sigue que \(P(1)\) es verdadero.</p>
+    </div>
+    <div class="proof-block">
+        <div class="proof-comment">Paso 2</div>
+        <p>Asumamos que \(P(n)\) es verdadero.</p>
+    </div>
+    <div class="proof-block">
+        <div class="proof-comment">Paso 3</div>
+        <p>Ahora, verificamos que se cumpla \(P(n+1)\):</p>
+        <p>\(\sum_{k=1}^{n+1}(k-1)\cdot k^{2}=\)[[validation:ans3]][[input:ans3]][[feedback:prt3]]</p>
+        <p></p>
+        <p>[[validation:ans4]][[input:ans4]][[feedback:prt4]]</p>
+        <p></p>
+    </div>
+    <p>Puesto que \(P(1)\) y \(P(n)\) \(\Rightarrow\)\(P(n+1)\), se sigue que \(P(n)\) es verdadera para toda \(n\in\mathbb{N}\) por el principio de inducción matemática.
+    </p>
+</div>

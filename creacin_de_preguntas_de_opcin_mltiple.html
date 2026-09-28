@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Creación de preguntas de opción múltiple | STACK, el plugin de Moodle para profes de matemáticas </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Mayra Lorena Díaz Sosa" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-36"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">STACK, el plugin de Moodle para profes de matemáticas</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="parte_i_preguntas_bsicas.html" class="daddy">Parte I: Preguntas básicas</a>
+   <ul class="other-section">
+      <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+      <li><a href="un_primer_experimento.html" class="daddy">Un primer experimento</a>
+      <ul class="other-section">
+         <li><a href="preguntas_con_respuestas_modelo.html" class="no-ch">Preguntas con respuestas modelo</a></li>
+         <li><a href="rbol_de_respuestas_potenciales.html" class="no-ch">Árbol de respuestas potenciales</a></li>
+         <li><a href="previsualizacin_de_preguntas.html" class="no-ch">Previsualización de preguntas</a></li>
+         <li><a href="retroalimentacin_adaptativa.html" class="no-ch">Retroalimentación adaptativa</a></li>
+         <li><a href="preguntas_aleatorias.html" class="no-ch">Preguntas aleatorias</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li><a href="parte_ii_preguntas_multiparte.html" class="daddy">Parte II: Preguntas multiparte</a>
+   <ul class="other-section">
+      <li><a href="introduccin0.html" class="no-ch">Introducción</a></li>
+      <li><a href="preguntas_matemticas_de_varias_partes.html" class="daddy">Preguntas matemáticas de varias partes</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_de_este_tipo_de_preguntas.html" class="no-ch">Ejemplos de este tipo de preguntas</a></li>
+         <li><a href="procesamiento_de_las_respuestas.html" class="no-ch">Procesamiento de las respuestas</a></li>
+         <li><a href="configuracin_del_reactivo.html" class="no-ch">Configuración del reactivo</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin0.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li><a href="parte_iii_razonamiento_equivalente.html" class="daddy">Parte III: Razonamiento equivalente</a>
+   <ul class="other-section">
+      <li><a href="introduccin1.html" class="no-ch">Introducción</a></li>
+      <li><a href="preguntas_basadas_en_razonamiento_por_equivalencia.html" class="daddy">Preguntas basadas en razonamiento por equivalencia</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_de_este_tipo_de_preguntas0.html" class="no-ch">Ejemplos de este tipo de preguntas</a></li>
+         <li><a href="nfasis_en_el_nmero_de_pasos.html" class="no-ch">Énfasis en el número de pasos</a></li>
+         <li><a href="nfasis_en_la_retroalimentacin_con_validacin_instantnea.html" class="no-ch">Énfasis en la retroalimentación con validación instantánea</a></li>
+         <li><a href="nfasis_en_la_retroalimentacin_con_validacin_diferida.html" class="no-ch">Énfasis en la retroalimentación con validación diferida</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin1.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li><a href="parte_iv_creacin_de_grficas.html" class="daddy">Parte IV: Creación de gráficas</a>
+   <ul class="other-section">
+      <li><a href="introduccin2.html" class="no-ch">Introducción</a></li>
+      <li><a href="insercin_de_grficos_generados_con_maxima.html" class="daddy">Inserción de gráficos generados con Maxima</a>
+      <ul class="other-section">
+         <li><a href="maxigrficas_en_stack.html" class="no-ch">Maxigráficas en STACK</a></li>
+         <li><a href="elaboracin_de_grficas_bsicas.html" class="no-ch">Elaboración de gráficas básicas</a></li>
+         <li><a href="elaboracin_de_grficas_discretas_y_paramtricas.html" class="no-ch">Elaboración de gráficas discretas y paramétricas</a></li>
+         <li><a href="personalizacin_y_opciones_de_configuracin.html" class="no-ch">Personalización y opciones de configuración</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin2.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="parte_v_otros_tipos_de_preguntas.html" class="current-page-parent daddy">Parte V: Otros tipos de preguntas</a>
+   <ul>
+      <li><a href="introduccin3.html" class="no-ch">Introducción</a></li>
+      <li class="current-page-parent"><a href="reactivos_de_lo_elemental_a_lo_innovador.html" class="current-page-parent daddy">Reactivos de lo elemental a lo innovador</a>
+      <ul>
+         <li id="active"><a href="creacin_de_preguntas_de_opcin_mltiple.html" class="active no-ch">Creación de preguntas de opción múltiple</a></li>
+         <li><a href="uso_de_listas_desplegables.html" class="no-ch">Uso de listas desplegables</a></li>
+         <li><a href="diseo_de_preguntas_de_seleccin_mltiple.html" class="no-ch">Diseño de preguntas de selección múltiple</a></li>
+         <li><a href="resolucin_de_problemas_basados_en_matrices.html" class="no-ch">Resolución de problemas basados en matrices</a></li>
+         <li><a href="incorporacin_de_grficas_adaptativas.html" class="no-ch">Incorporación de gráficas adaptativas</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin3.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li><a href="parte_vi_combinacin_con_geogebra.html" class="daddy">Parte VI: Combinación con GeoGebra</a>
+   <ul class="other-section">
+      <li><a href="introduccin4.html" class="no-ch">Introducción</a></li>
+      <li><a href="authomath.html" class="daddy">AuthOMath</a>
+      <ul class="other-section">
+         <li><a href="configuracin_de_variables_iniciales.html" class="no-ch">Configuración de variables iniciales</a></li>
+         <li><a href="vinculacin_de_cambios_del_applet_a_las_entradas_del_reactivo.html" class="no-ch">Vinculación de cambios del applet a las entradas del reactivo</a></li>
+         <li><a href="registro_de_posiciones_finales_en_los_applets.html" class="no-ch">Registro de posiciones finales en los applets</a></li>
+         <li><a href="algo_importante_que_considerar_a_futuro.html" class="no-ch">Algo importante que considerar a futuro</a></li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin4.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+   <li><a href="parte_vii_elaboracin_de_demostraciones.html" class="daddy">Parte VII: Elaboración de demostraciones</a>
+   <ul class="other-section">
+      <li><a href="introduccin5.html" class="no-ch">Introducción</a></li>
+      <li><a href="tipos_de_demostraciones.html" class="daddy">Tipos de demostraciones</a>
+      <ul class="other-section">
+         <li><a href="demostraciones_directas.html" class="no-ch">Demostraciones directas</a></li>
+         <li><a href="demostraciones_de_tipo_si_y_solo_si.html" class="no-ch">Demostraciones de tipo "Si y solo si"</a></li>
+         <li><a href="demostraciones_por_induccin.html" class="daddy">Demostraciones por inducción</a>
+         <ul class="other-section">
+            <li><a href="nfasis_en_presentar_la_estructura.html" class="no-ch">Énfasis en presentar la estructura</a></li>
+            <li><a href="nfasis_en_completar_los_pasos.html" class="no-ch">Énfasis en completar los pasos</a></li>
+            <li><a href="nfasis_en_desarrollar_la_demostracin.html" class="no-ch">Énfasis en desarrollar la demostración</a></li>
+         </ul>
+         </li>
+      </ul>
+      </li>
+      <li><a href="fuentes_de_informacin5.html" class="no-ch">Fuentes de información</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="reactivos_de_lo_elemental_a_lo_innovador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="uso_de_listas_desplegables.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Creación de preguntas de opción múltiple</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_classroom" id="id168">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_classroom.png)"><h1 class="iDeviceTitle">Una sola respuesta válida</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta168_121_2" class="block iDevice_content">
+<div class="exe-text"><p>El objetivo principal de STACK no es usar preguntas de opción múltiple, sino que el estudiante ingrese una expresión algebraica. Dicho esto, hay ocasiones en las que resulta muy útil, e incluso necesario, usar preguntas de opción múltiple en sus diversas formas. El uso de un sistema de álgebra computacional (CAS) en STACK es muy beneficioso para generar variantes aleatorias de preguntas de opción múltiple basadas en valores matemáticos.</p>
+<p>Los tipos de entrada de opción múltiple devuelven un objeto CAS que luego es evaluado por el árbol de respuestas potenciales. Por esta razón, estas entradas no proporcionan campos de retroalimentación para cada posible respuesta, como lo hace el tipo de entrada de opción múltiple en Moodle:</p>
+<ul>
+<li>Entradas con botones de opción (radio) y listas desplegables: devuelven una única expresión, que es el objeto CAS seleccionado.</li>
+<li>Entradas de casillas de verificación (checkbox): devuelven una <em>lista</em> de los objetos CAS seleccionados.</li>
+</ul>
+<p>Estos tipos de entrada utilizan la respuesta modelo tanto para introducir la respuesta del docente como las otras opciones. En este sentido, este tipo de entrada es único, y el campo <strong>respuesta modelo</strong> no contiene solo la respuesta del docente. La respuesta modelo debe suministrarse en un formato específico como una lista única de tantas sublistas como opciones se manejen:</p>
+<p style="text-align: center;"><span style="font-family: 'courier new', courier, monospace;">[[clave,validez,etiqueta],[clave,validez,etiqueta],...,[clave,validez,etiqueta]];</span></p>
+<ul>
+<li><span style="font-family: 'courier new', courier, monospace;">clave</span>: es el nombre o valor de la opción diseñada por el docente.</li>
+<li><span style="font-family: 'courier new', courier, monospace;">validez</span>: debe ser true (si la opción es la respuesta correcta) o false (si la opción es una respuesta falsa). Si se captura algo distinto a true, se considerará falso.</li>
+<li><span style="font-family: 'courier new', courier, monospace;">etiqueta (opcional)</span>: es el texto, la notación LaTeX o la gráfica que se mostrará como opción. Este campo solo se usa al construir la pregunta para su visualización en plataforma; internamente, STACK tomará la clave como la respuesta del estudiante, independientemente de lo que se haya configurado en la etiqueta.</li>
+</ul>
+<p>En esta sección mostraremos una serie de ejemplos que retoman gráficas elaboradas con anterioridad en las presentes guías ilustradas sobre STACK, por lo que se recomienda revisar los apartados pertinentes para facilitar la comprensión del código.</p>
+<p><strong>Opciones múltiples con texto</strong></p>
+<p>Crearemos una nueva pregunta en STACK. La respuesta modelo debe capturarse en el campo <strong>Variables de la pregunta</strong>, como se muestra a continuación:</p>
+<p><img src="m2_Variables_pregunta.PNG" alt="" width="1674" height="655" /></p>
+<p>Se trata de una pregunta de opción múltiple con texto, en donde la primera opción es la respuesta correcta, en tanto que las tres restantes son distractores. Las cuatro opciones están descritas como sublistas, mismas que en su conjunto constituyen la lista principal de respuestas que se visualizará en Moodle, la cual en este caso ha sido asignada a la variable <span style="font-family: 'courier new', courier, monospace;">ta</span>. Observemos que la lista principal entonces no puede considerarse como la respuesta del profesor frente a la cual se cotejará la respuesta seleccionada por el alumno para determinar si éste último ha acertado o no. Es por esta razón que se ha asignado la clave de la respuesta correcta, <span style="font-family: 'courier new', courier, monospace;">op1</span>, a la variable <span style="font-family: 'courier new', courier, monospace;">tac</span>, con miras a facilitar más adelante esta tarea.    </p>
+<p>Por otra parte, <span style="font-family: 'courier new', courier, monospace;">ta:random_permutation(ta);</span> nos permite presentar a cada alumno las opciones en orden aleatorio.</p>
+<p>Ahora bien, en el <strong>Enunciado de la pregunta</strong> capturaremos lo siguiente:</p>
+<p><img src="m1_Enunciado_pregunta.PNG" alt="" width="1667" height="560" /></p>
+<p>En toda pregunta en la que se presenten opciones de respuesta en forma aleatoria, es útil capturar el siguiente <span style="font-family: 'courier new', courier, monospace;">CASText</span> en el campo <strong>Notas de la pregunta</strong>, pues nos facilitará en su momento reconocer cuál fue la versión que se le presentó al estudiante y cuál opción corresponde a la respuesta correcta:</p>
+<p><img src="Notas_pregunta1.PNG" alt="" width="445" height="103" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>En <strong>Entrada</strong>, seleccionaremos como tipo la opción <strong>Radio</strong> y en respuesta modelo capturaremos ta. En este tipo de preguntas, toda vez que no se hace necesaria una validación sintáctica, elegiremos <strong>No</strong> tanto en <strong>Verificar respuesta</strong> como <strong>Mostrar validación</strong>. Adicionalmente, en <strong>Extraoptions</strong>, se ha capturado <span style="font-family: 'courier new', courier, monospace;">nonotanswered</span> para prevenir que el estudiante pueda dejar desmarcada alguna opción al enviar su respuesta.  </p>
+<p><img src="m1_Entrada.PNG" alt="" width="375" height="237" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Una vez que el estudiante envía su respuesta, <span style="font-family: 'courier new', courier, monospace;">ans1</span>, ésta ingresa al árbol potencial de respuestas para su validación semántica. En este caso, se requiere comparar <span style="font-family: 'courier new', courier, monospace;">ans1</span> con <span style="font-family: 'courier new', courier, monospace;">tac</span> y determinar si son equivalentes no matemáticamente sino para un CAS (en este caso, Maxima) :</p>
+<p><img src="Nodo.PNG" alt="" width="1743" height="497" /></p>
+<p>Guardamos los cambios y en la previsualización obtendremos el siguiente resultado:</p>
+<p><img src="Pregunta.PNG" alt="" width="599" height="517" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>Observemos que las opciones de respuesta aparecen en un orden distinto al capturado, como se esperaba. De hecho, en las Notas de la pregunta, es clara la versión (el orden presentado) y la respuesta correcta.</p>
+<p><img src="Notas_pregunta2.PNG" alt="" width="275" height="74" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><strong>Opciones múltiples con LaTeX</strong></p>
+<p>Ahora, generemos una nueva pregunta de STACK en la que capturaremos lo siguiente en <strong>Variables de la pregunta</strong>:</p>
+<p><img src="Variable_pregunta.PNG" alt="" width="1664" height="488" /></p>
+<p>Como puede observarse, aunque las etiquetas aparecen entre comillas como en el ejemplo de opción múltiple con texto, entre éstas aparece código LaTeX en el que los comandos se indican no con una diagonal invertida - como usualmente - sino con dos. Esto nos permitirá especificar opciones de respuesta con expresiones y notación matemática.</p>
+<p>Ahora, es necesario capturar el siguiente texto en <strong>Enunciado de la pregunta</strong>:</p>
+<p><img src="Enunciado_pregunta.1.PNG" alt="" width="1656" height="552" /></p>
+<p>En <strong>Notas de la pregunta</strong>, <strong>Entrada</strong>, <strong>Árbol</strong> de respuestas potenciales y <strong>Nodos</strong>, nos aseguraremos de seleccionar y capturar las mismas especificaciones que en la pregunta de opción múltiple con texto que recién creamos en el ejemplo previo.</p>
+<p>Al guardar los cambios y previsualizar, el resultado será el siguiente:</p>
+<p><img src="Pregunta.1.PNG" alt="" width="600" height="575" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><strong>Opciones mútiples con gráficas</strong></p>
+<p>En las preguntas de opción múltiple, en ocasiones podría resultar conveniente apoyarse en imágenes, no propiamente en el cuerpo del enunciado como hemos hecho hasta ahora, sino en las propias opciones. Para ilustrar un ejemplo de ello, crearemos una nueva pregunta STACK y en <strong>Variables de la pregunta</strong> haremos la siguiente captura:</p>
+<p><img src="Variables_pregunta.1.PNG" alt="" width="1663" height="645" /></p>
+<p>La lógica es exactamente la misma que hemos empleado con anterioridad, solo que para la respuesta modelo hemos creado primero las variables <span style="font-family: 'courier new', courier, monospace;">f1</span>, <span style="font-family: 'courier new', courier, monospace;">f2</span>, <span style="font-family: 'courier new', courier, monospace;">f3</span> y <span style="font-family: 'courier new', courier, monospace;">f4</span>, a las que hemos asignado cuatro maxigráficas (la respuesta correcta y los distractores). En <strong>Enunciado de la pregunta</strong> colocaremos el siguiente texto:</p>
+<p><img src="Enunciado_pregunta.2.PNG" alt="" width="1662" height="563" /></p>
+<p>Nos aseguraremos de seleccionar y capturar las mismas especificaciones que en la pregunta de opción múltiple con texto del primer ejemplo, tanto en <strong>Notas de la pregunta</strong>, <strong>Entrada</strong>, <strong>Árbol</strong> de respuestas potenciales y <strong>Nodos</strong>.</p>
+<p>Luego de guardar los cambios obtendremos la siguiente previsualización:</p>
+<p><img src="Pregunta.2.PNG" alt="" width="600" height="1388" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p>¡Hemos conseguido que todas las opciones de este pregunta sean imágenes homogéneas y de calidad con gran facilidad gracias a STACK!</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ReflectionIdevice em_iDevice em_iDevice_reflection" id="id169">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Reflexión</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta169_105" class="block iDevice_content">
+<p>¿Por qué hacer este tipo de preguntas con STACK y no simplemente con Moodle?</p>
+</div>
+<form name="feedback-form-169_106" action="#" onsubmit="return false" class="feedback-form">
+<div class="block iDevice_buttons feedback-button js-required">
+<p><script type="text/javascript">var feedback169_106text = "Respuesta";</script><input type="button" name="toggle-feedback-169_106" value="Respuesta" class="feedbackbutton feedback-toggler" /></p>
+</div>
+<section id="feedback-169_106" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p>Las capacidades de graficación directa con STACK, ya sea en el enunciado de la pregunta o en las opciones de respuesta, son una buena razón para preferir a este plug in sobre la herramienta nativa de opción múltiple de Moodle. Asimismo, podemos aprovechar las capacidades de aleatorización de STACK para generar reactivos únicos de opción múltiple para cada estudiante sobre un mismo problema.</p></section>
+</form>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="reactivos_de_lo_elemental_a_lo_innovador.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="uso_de_listas_desplegables.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>

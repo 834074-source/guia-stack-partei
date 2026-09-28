@@ -1,0 +1,60 @@
+-------------------------------
+Enunciado de la pregunta - HTML
+-------------------------------
+<div class="thm">Prueba que&nbsp; \[\sum_{k=1}^{n}k=\frac{n(n+1)}{2}.\]</div>
+<div class="thm"><br></div>
+
+<div class="proof">
+    <p><em>Demostración:</em></p>
+    <p>Sea \(P(n)\) la proposición:&nbsp;\[\sum_{k=1}^{n}k=\frac{n(n+1)}{2}.\]</p>
+    <div class="proof-block"><!--Bloque del paso 1-->
+        <div class="proof-column" style="width:65%">
+            <p>Puesto que para \(n=1\),&nbsp;</p>
+            <p>\[\text{Lado izquierdo: }1=1\]</p>
+            <p></p>
+            <p>y&nbsp;</p>
+            <p>\[\text{Lado derecho: }\frac{1(1+1)}{2}=1\]</p>
+            <p>se sigue que \(P(1)\) es verdadero.</p>
+        </div>
+        <div class="proof-column-2" style="width:35%">
+            <div class="proof-comment">Paso 1: Caso base \(n=1\). Sustituimos \(n=1\) en ambos lados y verificamos que se cumple la proposición.</div>
+        </div>
+    </div><!--Cierre de bloque del paso 1-->
+    <div class="proof-block"><!--Bloque del paso 2-->
+        <div class="proof-column" style="width:65%">
+            <p>Asumamos que \(P(n)\) es verdadero:</p>
+            <p>\[1+2+3+\ldots+n=\frac{n(n+1)}{2}.\]</p>
+        </div>
+        <div class="proof-column-2" style="width:35%">
+            <div class="proof-comment">Paso 2: Hipótesis de inducción. Asumimos que la fórmula es verdadera para \(n\) (supuesto inductivo).</div>
+        </div>
+    </div><!--Cierre del bloque del paso 2-->
+
+    <div class="proof-block"><!-- Bloque del paso 3-->
+        <div class=" proof-column" style="width:65%">
+            <div class="proof-block">
+                <p><em>(a) Partimos del supuesto inductivo</em></p>
+                <p></p>
+                <p>Queremos probar que \[\sum_{k=1}^{n+1}k=\frac{(n+1)((n+1)+1)}{2}.\]</p>
+                <p>La suma de los primeros \(n+1\) términos (lado izquierdo) se puede escribir como: \[(1+2+3+\ldots+n)+(n+1).\]</p>
+                <p>Sustituyendo la hipótesis inductiva&nbsp;\(1+2+3+\ldots+n=\frac{n(n+1)}{2},\) tenemos en el lado izquierdo: \[\frac{n(n+1)}{2}+(n+1).\]</p>
+            </div>
+            <div class="proof-block">
+                <p><em>(b) Simplificamos la expresión:</em></p>
+                <p>Sumamos los términos con denominador común:</p>
+                <p>\[\frac{n(n+1)}{2}+\frac{2(n+1)}{2}=\frac{n(n+1)+2(n+1)}{2}.\]</p>
+                <p>Factorizamos \(n+1\):</p>
+                <p>\[\frac{(n+1)(n+2)}{2}.\]</p>
+            </div>
+            <div class="proof-block">
+                <p><em>(c) Comprobamos:</em></p>
+                <p>La expresión final es igual al lado derecho de la fórmula para \(n+1\), es decir:</p>
+                <p>\[\frac{(n+1)((n+1)+1)}{2}.\]</p>
+            </div>
+        </div>
+        <div class="proof-column-2" style="width:35%">
+            <div class="proof-comment">Paso 3: Paso inductivo.&nbsp;Ahora, verificamos que se cumpla para \((n+1)\).</div>
+        </div><!--Cierre del bloque del paso 3-->
+    </div>
+    <p>Puesto que \(P(1)\) y \(P(n)\) \(\Rightarrow\)\(P(n+1)\), hemos probado que \(P(n)\) es verdadera para toda \(n\in\mathbb{N}\) por el principio de inducción matemática.</p>
+</div>
